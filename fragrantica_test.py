@@ -70,8 +70,8 @@ print("\n""----------------------------------------------------------""\n"
 
 if len(result[0])==0 and len(result[1])==0 and len(result[2])==0:
     print("\n""I'm Sorry :(""\n"
-          "You're taste is so unique and speacial that I couldn't find perfume for you.""\n"
-          "I'll comeback with more perfume later!")
+          "Your taste is so unique and speacial that I couldn't find the perfume for you.""\n"
+          "I'll come back with more perfumes later!")
 else:
     for x in range(5):
         if 0<len(result[x])<10:
